@@ -23,6 +23,7 @@
   width: 113px;
   height: 113px;
   margin: 10px;
+  padding-right: 10px;
   border-radius: 50%;
 }
 .price-tag {
