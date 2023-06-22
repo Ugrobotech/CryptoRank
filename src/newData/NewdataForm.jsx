@@ -39,21 +39,21 @@ const NewdataForm = (props) => {
       <input
         className="input"
         type="text"
-        placeholder="Coin Name"
+        placeholder="Marketer's Name"
         value={newName}
         onChange={newNameHandler}
       />
       <input
         className="inputPrice"
         type="text"
-        placeholder="Coin Price"
+        placeholder="Marketer's Profit"
         value={newPrice}
         onChange={newPriceHandler}
       />
       <input
         className="imgLink"
         type="text"
-        placeholder="Coin image link"
+        placeholder="Marketer's Image"
         value={imgLink}
         onChange={imgLinkHandler}
       />

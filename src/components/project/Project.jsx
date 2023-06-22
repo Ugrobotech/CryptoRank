@@ -18,7 +18,7 @@ const Project = (props) => {
         <div className="col-md-7 bars">
           <p className="crypto-name">
             {props.name}
-            <span className="crypto-multiple m1">5950.00x</span>
+            {/* <span className="crypto-multiple m1">5950.00x</span> */}
           </p>
           <div className="dashes">
             <div className="guage" style={{ width: barFillHeight }}>
@@ -29,10 +29,10 @@ const Project = (props) => {
         <div className="col-md-3 price-tag">
           <table>
             <tr>
-              <td className="price">Price</td>
+              <td className="price">Amount</td>
             </tr>
             <tr>
-              <td>${props.price}...</td>
+              <td>${props.price}</td>
             </tr>
           </table>
         </div>

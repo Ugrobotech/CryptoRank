@@ -37,7 +37,7 @@ const Dynamicdash = () => {
       {/* nav start */}
       <nav id="navbar-example2" className="navbar bg-body-tertiary px-3 mb-3">
         <a className="navbar-brand" href="/#">
-          Top Projects by ROI
+          Top Weekly Earners by Affliliates
           <img className="top-header-icon" src={image2} alt="..." />
         </a>
         <a className="addNew" href="/#" onClick={showModal}>
@@ -52,17 +52,17 @@ const Dynamicdash = () => {
               role="button"
               aria-expanded="false"
             >
-              All Time
+              Weekly
             </a>
             <ul className="dropdown-menu">
               <li>
                 <a className="dropdown-item" href="#scrollspyHeading3">
-                  Third
+                  Week 1
                 </a>
               </li>
               <li>
                 <a className="dropdown-item" href="#scrollspyHeading4">
-                  Fourth
+                  Week 2
                 </a>
               </li>
               <li>
@@ -70,7 +70,7 @@ const Dynamicdash = () => {
               </li>
               <li>
                 <a className="dropdown-item" href="#scrollspyHeading5">
-                  Fifth
+                  Week 3
                 </a>
               </li>
             </ul>
