@@ -41,7 +41,7 @@ const Dynamicdash = () => {
       {/* nav start */}
       <nav id="navbar-example2" className="navbar bg-body-tertiary px-3 mb-3">
         <a className="navbar-brand" href="/#">
-          Top Weekly Earners by Affliliates
+          Top Weekly Earners by Affiliates
           <img className="top-header-icon" src={image2} alt="..." />
         </a>
         <a className="addNew" href="/#" onClick={showModal}>
