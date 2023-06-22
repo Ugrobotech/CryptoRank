@@ -2,14 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Routing
 
-## Routing 
-this is done in the App.js file. 
+this is done in the App.js file.
 
 ## Redux folder
+
 This is used only for authentication.
 
-## Util folder 
+## Util folder
 
 This is for utility functions mostly.
 
@@ -79,3 +80,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+https://altcoinsbox.com/wp-content/uploads/2023/01/ethereum-logo.png
