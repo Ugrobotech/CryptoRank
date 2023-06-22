@@ -15,10 +15,10 @@ const NewdataForm = (props) => {
 
   const imgLinkHandler = (event) => {
     // script to allow images hosted on google driveto be embedded
-    // const fileIdRegex = /\/file\/d\/([^/]+)/;
-    // const match = event.target.value.match(fileIdRegex);
-    // setImgLink(`https://drive.google.com/uc?id=${match[1]}`);
-    setImgLink(event.target.value);
+    const fileIdRegex = /\/file\/d\/([^/]+)/;
+    const match = event.target.value.match(fileIdRegex);
+    setImgLink(`https://drive.google.com/uc?id=${match[1]}`);
+    // setImgLink(event.target.value);
   };
 
   const submitHandler = () => {
