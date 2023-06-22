@@ -23,7 +23,7 @@
   width: 113px;
   height: 113px;
   margin: 10px;
-  padding-right: 10px;
+  /* padding-right: 10px; */
   border-radius: 50%;
 }
 .price-tag {
@@ -102,7 +102,7 @@
   .crypto-icon {
     /* width: 3rem !important;
     margin-top: 1.3rem !important; */
-    width: 47.5px;
+    width: 48px;
     height: 48px;
     margin: 10px;
     border-radius: 50%;
