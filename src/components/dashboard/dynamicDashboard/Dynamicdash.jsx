@@ -11,11 +11,15 @@ const Dynamicdash = () => {
 
   // get the Maxprice
   const getMaxprice = () => {
-    let maxPrice = datas.map((data) => {
+    let allPrice = datas.map((data) => {
       return data.price;
     });
+    let sum = allPrice.reduce(
+      (accumulator, currentValue) => accumulator + currentValue,
+      0
+    );
 
-    return Math.max(...maxPrice);
+    return sum;
   };
 
   const showModal = () => {
@@ -85,14 +89,14 @@ const Dynamicdash = () => {
         ) : (
           datas.map((data) => {
             // ccalling the get maxPrice function to get the maxparice
-            let maxP = getMaxprice();
+            let Sum = getMaxprice();
             return (
               <Project
                 key={data.id}
                 name={data.name}
                 price={data.price}
                 image={data.imgLink}
-                maxValue={maxP}
+                sum={Sum}
               />
             );
           })

@@ -3,11 +3,12 @@ import "./project.css";
 import image1 from "../../assets/frame-717@2x.png";
 
 const Project = (props) => {
+  console.log(props.sum);
   // calculation chartbar fill %
   let barFillHeight = "0%";
 
-  if (props.maxValue > 0) {
-    barFillHeight = Math.round((props.price / props.maxValue) * 100) + "%";
+  if (props.sum > 0) {
+    barFillHeight = Math.round((props.price / props.sum) * 100) + "%";
   }
   return (
     <div>
