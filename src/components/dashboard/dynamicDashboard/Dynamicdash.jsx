@@ -81,7 +81,7 @@ const Dynamicdash = () => {
       {/* nav end */}
       <div className="container-fluid">
         {datas.length === 0 ? (
-          <h2>No coin has been added yet</h2>
+          <h2>No Marketer has been added yet</h2>
         ) : (
           datas.map((data) => {
             // ccalling the get maxPrice function to get the maxparice
