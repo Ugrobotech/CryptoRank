@@ -63,6 +63,7 @@
 }
 
 .dashes {
+  margin-left: 10px;
   border-bottom: 1px dashed #666;
   height: 1.5rem;
 }
